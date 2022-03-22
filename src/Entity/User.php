@@ -10,6 +10,7 @@ use Symfony\Component\Validator\Constraints  as Assert;
 
 /**
  * @ORM\Entity(repositoryClass=UserRepository::class)
+ * @ORM\table(name="`use`")
  */
 class User implements UserInterface, PasswordAuthenticatedUserInterface
 {
